@@ -1,0 +1,71 @@
+DefaultContentLanguage = "en"
+baseURL = "https://ianrodrigues.dev"
+theme = "amperage"
+pygmentsUseClasses = true
+
+[languages]
+    [languages.en]
+        contentDir = "content/en"
+        languageName = "English"
+        languageCode = "en"
+        title = "A blog by Ian Rodrigues 🚴"
+        description = "DevOps Engineer at Oowlish, working for Petco. I enjoy learning new things and, sharing knowledge."
+        weight = 1
+    [languages.pt-br]
+        contentDir = "content/pt-br"
+        languageName = "Português"
+        languageCode = "pt-br"
+        title = "Um blog por Ian Rodrigues 🚴"
+        description = "Engenheiro DevOps na Oowlish, trabalhando para a Petco. Eu gosto de aprender coisas novas e, compartilhar conhecimento."
+        weight = 2
+
+[[menu.main]]
+    identifier = "uses"
+    name = "Uses"
+    url = "/uses"
+    weight = 5
+# [[menu.main]]
+#     identifier = "resume"
+#     name = "Resume"
+#     url = "/resume"
+#     weight = 10
+[[menu.main]]
+    identifier = "github"
+    name = "GitHub"
+    url = "https://github.com/ianrodrigues"
+    weight = 15
+[[menu.main]]
+    identifier = "twitter"
+    name = "Twitter"
+    url = "https://twitter.com/ianrdgs"
+    weight = 20
+
+[taxonomies]
+    tag = "tags"
+
+[params]
+    copyright = "ianrodrigues.dev"
+    themeColor = "#333"
+
+    ampElements = ["amp-iframe", "amp-analytics", "amp-social-share", "amp-install-serviceworker"]
+    googleAnalytics = "UA-152560712-1"
+    # adsensePublisher = "ca-pub-123456789"
+
+    # commentsEmbedUrl = "https://comments.example.com"
+
+    # facebookSite = "example"
+    twitterSite = "@ianrdgs"
+
+    socialProfiles = ["https://twitter.com/ianrdgs","https://www.linkedin.com/in/ianrdgs/","https://github.com/ianrodrigues"]
+
+    alternatePageName = "ianrodrigues.dev"
+    organizationLogo = "/logo.png"
+    organizationName = "Ian Rodrigues"
+
+    publisherName = "Ian Rodrigues"
+    publisherLogo = "/logo-amp-article.png"
+    publisherLogoWidth = 600
+    publisherLogoHeight = 60
+
+[markup]
+    defaultMarkdownHandler = "blackfriday"
